@@ -1,13 +1,24 @@
 <template>
+  <div class="container">
     <div>
-      "Welcome to the todo-app"
+      <h1 class="title">My Todo App</h1>
     </div>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'TodoApp'
+  name: 'TodoApp',
+  props: {
+    msg: String
+  }
 }
+
 </script>
 
-<style scoped></style>
+<style scoped>
+.title {
+  text-align: center;
+  margin-top: 5pt;
+}
+</style>
