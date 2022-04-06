@@ -2,18 +2,24 @@
   <div class="container">
     <div>
       <h1 class="title">My Todo App</h1>
+      <TaskCard></TaskCard>
     </div>
   </div>
 </template>
 
 <script>
+import TaskCard from "@/components/TaskCard";
+
+
 export default {
   name: 'TodoApp',
   props: {
     msg: String
+  },
+  components:{
+    TaskCard
   }
 }
-
 </script>
 
 <style scoped>
