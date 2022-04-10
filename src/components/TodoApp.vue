@@ -8,8 +8,7 @@
 </template>
 
 <script>
-import TaskCard from "@/components/TaskCard";
-
+import TaskCard from "@/components/TaskCardGrid";
 
 export default {
   name: 'TodoApp',
@@ -18,7 +17,7 @@ export default {
   },
   components:{
     TaskCard
-  }
+  },
 }
 </script>
 
