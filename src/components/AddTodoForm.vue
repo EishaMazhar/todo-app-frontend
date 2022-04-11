@@ -20,7 +20,7 @@
           label="Description"
           name="description"
       >
-        <a-textarea v-model:value="newDescription" placeholder="Description" :rows="1" style="width: fit-content"/>
+        <a-textarea v-model:value="newDescription" placeholder="Description" :rows="1" style="width: max-content"/>
       </a-form-item>
 
 

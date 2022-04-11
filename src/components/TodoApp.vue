@@ -15,6 +15,7 @@
                     :index="index"
                     :title="item.title"
                     :isCompleted="item.is_completed"
+                    :created_on="item.timestamp"
           ></TaskCard>
         </li>
       </a-card>
